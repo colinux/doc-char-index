@@ -1,0 +1,22 @@
+{
+  "name": "doc-char-index",
+  "main": "./lib/doc-char-index",
+  "version": "0.1.0",
+  "description": "Display cursor character index or selection range from the beginning of document.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/colinux/doc-char-index",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+   "status-bar": {
+     "versions": {
+       "^1.0.0": "consumeStatusBar"
+     }
+   }
+ }
+}
